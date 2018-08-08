@@ -2,7 +2,7 @@
 
 ## What's the point?
 
-Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.
+Computer Science is the basis for everything you've learned at DevMountain. There are two main purposes to this additional series of classes. The first purpose is to make sure you are the most prepared and able job candidates that you can be. Knowing these principles will help you perform betting in challenging interviews and will help you be more confident in all potential job oportunities. If you don't get a job, then it will be much harder to put into practice everything that you've learned here at DevMountain. The second purpose of this course is to make sure when you do get you're dream job that you will be as well prepared as possible to make well designed and efficient code. The better you understand these concepts the more clearly you will be able to think about your program in general and over time writing well designed code will become natural and instinctive. By well designed code we mean that the code is easily reusable, testable and maintainable.
 
 
 # Learning Objectives
