@@ -4,6 +4,8 @@
 var array: [Int] = [1,2,3,4,5,6,7,8,9,10]
 
 
+
+
 // O(1)
 // O(6) == O(1)
 for i in 0...5 {
@@ -42,7 +44,27 @@ for i in array { //O(n)
     }
 }
 
+// Gotcha with algorithms
+func badLinearSearch(n: [Int], element: Int) -> Bool {
+    var found = false
+    
+    for i in 0...n.count - 1 {
+        if n[i] == element {
+            found = true
+        }
+    }
+    
+    return found
+}
 
+func goodLinearSearchButStillLinear(n: [Int], element: Int) -> Bool {
+    for i in n {
+        if i == element {
+            return true
+        }
+    }
+    return false
+}
 
 
 
@@ -84,19 +106,6 @@ for i in array { // O(n)
 for value in array where value < array.count/2 {
     print(value)
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

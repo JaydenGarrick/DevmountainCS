@@ -14,7 +14,15 @@
 
 // Properties
 // - Stored an ORDERED list of items.
-// - But the location of the items could be anywhere in memory.
+// - But the location o
+
+let array: [Int] = [12, 45, 2, 21]
+
+for i in array {
+    if i == 12 {
+        print("found \(i)")
+    }
+}
 
 public final class LinkedList<T> {
     
