@@ -144,7 +144,7 @@ let sortedArray = [1,2,3,5,7,8,10,13,14,16,20,21]
 
 
 
-
+// ASSUMPTION: The array we're using is sorted
 func find(num: Int, inArray array: [Int]) -> Bool {
     let middleIndex = array.count / 2
     
@@ -162,6 +162,35 @@ func find(num: Int, inArray array: [Int]) -> Bool {
 }
 
 find(num: 8, inArray: sortedArray)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+func doSomethingWith(array: [Int]) {
+    for i in 0...5 {
+        print(i)    
+    }
+}
+
+
+
+
+
 
 
 

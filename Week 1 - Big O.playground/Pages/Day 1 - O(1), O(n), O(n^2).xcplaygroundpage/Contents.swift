@@ -3,13 +3,29 @@
 
 var array: [Int] = [1,2,3,4,5,6,7,8,9,10]
 
+func whyWouldYouDoThis(_ array: [Int]) {
+    // Print Each Element
+    for a in array {
+        print(a)
+    }
+    
+    // Prints pairs
+    for a in array {
+        for b in array {
+            print("\(a), \(b)")
+        }
+    }
+}
 
-
+whyWouldYouDoThis(array)
 
 // O(1)
 // O(6) == O(1)
-for i in 0...5 {
-    print(array[i])
+
+func printNumbers1Through5() {
+    for i in 0...5 {
+        print(array[i])
+    }
 }
 
 //Adding big O together
@@ -31,10 +47,6 @@ for i in array {
 }
 
 
-
-
-
-
 // O(n^3)
 for i in array { //O(n)
     for j in array { // O(n)
@@ -45,20 +57,23 @@ for i in array { //O(n)
 }
 
 // Gotcha with algorithms
-func badLinearSearch(n: [Int], element: Int) -> Bool {
+/// The average time for goodLinearSearch is better, however the order of growth is the same. O(n)
+
+
+func badLinearSearch(array: [Int], element: Int) -> Bool {
     var found = false
-    
-    for i in 0...n.count - 1 {
-        if n[i] == element {
+    for i in 0...array.count - 1 {
+        if array[i] == element {
             found = true
         }
     }
-    
     return found
 }
 
-func goodLinearSearchButStillLinear(n: [Int], element: Int) -> Bool {
-    for i in n {
+
+
+func goodLinearSearch(array: [Int], element: Int) -> Bool {
+    for i in array {
         if i == element {
             return true
         }
@@ -74,26 +89,6 @@ func goodLinearSearchButStillLinear(n: [Int], element: Int) -> Bool {
 // n((n*1) + (n*n))
 // n(n + n^2)
 // n^2 + n^3
-// n^3
-
-for i in array { // O(n)
-    for j1 in array { // O(n)
-        for k in 0...3 { // O(1)
-            print("\(i)\(j1)\(k)")
-        }
-    }
-    
-    
-    for j2 in array { // O(n)
-        for k in array { // O(n)
-            print("\(i)\(j2)\(k)")
-        }
-    }
-}
-
-
-
-
 
 
 
@@ -103,8 +98,12 @@ for i in array { // O(n)
 // Simplifying Big O
 
 // O(n/2) == O(n)
-for value in array where value < array.count/2 {
-    print(value)
+
+
+func printHalfOfArray(array: [Int]) {
+    for value in array where value < array.count/2 {
+        print(value)
+    }
 }
 
 
@@ -113,10 +112,10 @@ for value in array where value < array.count/2 {
 
 var posts: [Int] = [1,2,3,4,5,6,7,8,9,10]
 var comments: [Int] = [1,2,3,4,5,6]
-// let p = posts.count
-// let c = comments.count
 
 // O(pc)
+
+
 for post in posts {
     for comment in comments {
         print("\(post)\(comment)")
@@ -125,12 +124,15 @@ for post in posts {
 
 
 // O(p + c)
+
+
 for post in posts {
     print("\(post)")
 }
 for comment in comments {
     print("\(comment)")
 }
+
 
 
 
