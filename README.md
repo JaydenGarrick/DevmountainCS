@@ -76,7 +76,7 @@ Computer Science is the basis for everything you've learned at DevMountain. Ther
 
 
 
-## Week 1 - Big O
+#### Week 1 - Big O
  1. Day 1 - Simple definition. What is big O - O(1) & O(n) & O(n^2) - O(ab) - What is Big        O?     Why is it important? How do you simplify Big O?
  • https://www.youtube.com/watch?v=v4cd1O4zkGw  <—  Big O overview
  https://www.youtube.com/watch?v=MyeV2_tGqvw
@@ -91,7 +91,7 @@ Computer Science is the basis for everything you've learned at DevMountain. Ther
  4. Day 4 - Time vs. Space/ Practice
  • https://www.youtube.com/watch?v=bNjMFtHLioA  <—  Time vs. Space
  
-## Week 2 - Data Structures Part 1
+#### Week 2 - Data Structures Part 1
  1. Day 1 - Arrays/Linked List 
  • https://www.youtube.com/watch?v=_jQhALI4ujg  <—  Linked Lists
  • https://www.youtube.com/watch?v=jiHuPbUGlBE        <— Short video on Linked Lists and Arrays
@@ -102,20 +102,20 @@ Computer Science is the basis for everything you've learned at DevMountain. Ther
  4. Day 4 - Trees/Binary Trees -> Definitions, uses examples etc etc
  • https://www.youtube.com/watch?v=oSWTXtMglKE<— B.S.T.
  
-## Week 3 - Data Structures Part 2
+#### Week 3 - Data Structures Part 2
  1. Day 5 - Binary Search Trees -> Definitions, uses examples etc etc
  • https://www.youtube.com/watch?v=oSWTXtMglKE<— B.S.T.
  2. Day 6 - Heap/Trie -> Two different use cases for a tree - mention how heap is a great example of priority queue.
  3. Day 7 - Set/Set Theory -> Set theory (Unions, )
  4. Day 8 - Graphs
  
-## Week 4 - Practice Interview Questions
+#### Week 4 - Practice Interview Questions
  1. Day 1 -
  2. Day 2 -
  3. Day 3 -
  4. Day 4 -
  
-## Week 5 - Design Patterns
+#### Week 5 - Design Patterns
  1. Day 1 - Strategy Pattern
  • https://www.youtube.com/watch?v=v9ejT8FO-7I
  2. Day 2 - Observer Pattern/Decorator Pattern
@@ -126,7 +126,7 @@ Computer Science is the basis for everything you've learned at DevMountain. Ther
  4. Day 4 - Abstract Factory
  • https://www.youtube.com/watch?v=v-GiuMmsXj4
  
-## Week 6 - Design Patterns/ Design Practice
+#### Week 6 - Design Patterns/ Design Practice
  1. Day 1 - Facade
  • https://www.youtube.com/watch?v=K4FkHVO5iac
  2. Day 2 - Proxy
