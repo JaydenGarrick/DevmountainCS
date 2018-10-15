@@ -48,3 +48,90 @@ Computer Science is the basis for everything you've learned at DevMountain. Ther
 * __Tuesday__ - Describe what problem Proxy solves, and how exactly it solves that problem. Be able to describe the difference between Proxy and Facade Methods
 * __Wednesday__ - Describe the four steps of Object Oriented Design. be able to design a Deck of Cards data structure 
 * __Thursday__ - Be ready to teach any given topic we've gone over 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Week 1 - Big O
+ 1. Day 1 - Simple definition. What is big O - O(1) & O(n) & O(n^2) - O(ab) - What is Big        O?     Why is it important? How do you simplify Big O?
+ • https://www.youtube.com/watch?v=v4cd1O4zkGw  <—  Big O overview
+ https://www.youtube.com/watch?v=MyeV2_tGqvw
+ • https://www.youtube.com/watch?v=OMInLBKYAWg  <—  Linear Time
+ • https://www.youtube.com/watch?v=1Md4Uo8LtHI  <—  Constant Time
+ • https://www.youtube.com/watch?v=mIjuDg8ky4U  <—  Quadratic Time
+ • https://www.youtube.com/watch?v=gHzZZYJENpo  <—  O(N)O(1) in Swift Brian Voong
+ 2. Day 2 - O(log n) & O(2^n)  - What is the difference between FRANK
+ • https://www.youtube.com/watch?v=Hatl0qrT0bI  <—  Logarithmic Time
+ • https://www.youtube.com/watch?v=Hatl0qrT0bI  <—  Exponential Time
+ 3. Day 3 - O(n!) / O(sqrt(n)) / and other odd ones
+ 4. Day 4 - Time vs. Space/ Practice
+ • https://www.youtube.com/watch?v=bNjMFtHLioA  <—  Time vs. Space
+ 
+## Week 2 - Data Structures Part 1
+ 1. Day 1 - Arrays/Linked List 
+ • https://www.youtube.com/watch?v=_jQhALI4ujg  <—  Linked Lists
+ • https://www.youtube.com/watch?v=jiHuPbUGlBE        <— Short video on Linked Lists and Arrays
+ 2. Day 2 - Queue/Priority Queue/Stack
+ • https://www.youtube.com/watch?v=wjI1WNcIntg <— Queue / Stack
+ 3. Day 3 - Dictionaries/ HashMap -> The two main ways of dealing with collisions  // Chaining and linear Probing
+ • https://www.youtube.com/watch?v=wjI1WNcIntg <— Hash/Hash Map/Collisions
+ 4. Day 4 - Trees/Binary Trees -> Definitions, uses examples etc etc
+ • https://www.youtube.com/watch?v=oSWTXtMglKE<— B.S.T.
+ 
+## Week 3 - Data Structures Part 2
+ 1. Day 5 - Binary Search Trees -> Definitions, uses examples etc etc
+ • https://www.youtube.com/watch?v=oSWTXtMglKE<— B.S.T.
+ 2. Day 6 - Heap/Trie -> Two different use cases for a tree - mention how heap is a great example of priority queue.
+ 3. Day 7 - Set/Set Theory -> Set theory (Unions, )
+ 4. Day 8 - Graphs
+ 
+## Week 4 - Practice Interview Questions
+ 1. Day 1 -
+ 2. Day 2 -
+ 3. Day 3 -
+ 4. Day 4 -
+ 
+## Week 5 - Design Patterns
+ 1. Day 1 - Strategy Pattern
+ • https://www.youtube.com/watch?v=v9ejT8FO-7I
+ 2. Day 2 - Observer Pattern/Decorator Pattern
+ • https://www.youtube.com/watch?v=_BpmfnqjgzQ <— Observer Pattern
+ • https://www.youtube.com/watch?v=GCraGHx6gso <— Decorator Pattern
+ 3. Day 3 - Factory Method
+ • https://www.youtube.com/watch?v=EcFVTgRHJLM
+ 4. Day 4 - Abstract Factory
+ • https://www.youtube.com/watch?v=v-GiuMmsXj4
+ 
+## Week 6 - Design Patterns/ Design Practice
+ 1. Day 1 - Facade
+ • https://www.youtube.com/watch?v=K4FkHVO5iac
+ 2. Day 2 - Proxy
+ • https://www.youtube.com/watch?v=NwaabHqPHeM
+ 3. Day 3 - Practice Design Interview Questions
+ • https://courses.cs.washington.edu/courses/cse403/09sp/lectures/lecture07-uml.pdf <— This is an awesome slide show teaching UML
+ 4. Day 4 - Review and Practice 
+ 
